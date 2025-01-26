@@ -1,17 +1,12 @@
-.navbar {
+.navii {
     position: sticky;
     top: 0;
-    z-index: 1000; /* Ensures navbar stays on top */
+    
+    
   }
-  @media (max-width: 768px) {
-    .navbar {
-      position: static;  /* On small screens, navbar is not sticky */
-    }
   
-    .carousel-container {
-      margin-top: 120px;  /* Adjust as needed */
-    }
-  }
+  
+   
   
   
  

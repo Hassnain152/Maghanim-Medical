@@ -6,10 +6,14 @@ import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-sv
 
 function Aboutus() {
   return (
-    <div class ="container" >
-        <h1>hi i am about us</h1>
+    <section id='Aboutus'>
+      <div class ="container" >
+        <h1>Add about the company here</h1>
+        
 
     </div>
+    </section>
+    
   );
 }
 

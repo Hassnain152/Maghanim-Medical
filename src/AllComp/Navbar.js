@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../Assets/logoR.png";
+import logok from "../Assets/logoR.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Navbar.css"
@@ -22,12 +22,14 @@ function Navbar() {
           <a className="navbar-brand" href="#top">
             <img
               className="logoo"
-              src={logo}
+              data-aos="slide-down"
+              data-aos-delay="100"
+              src={logok}
               alt="Logo"
               style={{
                 width: "130px",
                 height: "auto",
-                
+                maxHeight: "85px",
               }}
             />
           </a>
@@ -36,25 +38,24 @@ function Navbar() {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded={!isNavCollapsed}
             aria-label="Toggle navigation"
             onClick={toggleNavbar}
           >
             <span
-              className={`navbar-toggler-icon ${
-                isNavCollapsed ? "" : "btn-close"
-              }`}
+              className={
+                isNavCollapsed ? "navbar-toggler-icon" : "btn-close"
+              }
               aria-hidden="true"
             ></span>
           </button>
 
           {/* Navbar Links */}
           <div
-            className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`}
+           className={`collapse navbar-collapse ${isNavCollapsed ? "" : "show"}`}
             id="navbarNav"
+            
           >
             <ul className="navbar-nav ms-auto">
               <li className="items">
@@ -62,7 +63,7 @@ function Navbar() {
                   className="nav-link"
                   aria-current="page"
                   href="#top"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   HOME
                 </a>
@@ -71,7 +72,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Aboutus"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   ABOUT US
                 </a>
@@ -80,7 +81,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Client"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   OUR CLIENTS
                 </a>
@@ -89,7 +90,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#offer"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   SERVICES
                 </a>
@@ -98,7 +99,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#projects"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   PROJECTS
                 </a>
@@ -107,7 +108,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Contactus"
-                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   CONTACT US
                 </a>

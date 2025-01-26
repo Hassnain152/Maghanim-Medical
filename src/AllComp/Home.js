@@ -1,9 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
- import carsl from "../Assets/mnb.jpg"
- import cars2 from "../Assets/mnb2.jpg"
  import pic1 from "../Assets/hoss.png"
  import pic2 from "../Assets/hosi.png"
+ import "./Home.css"
 
 
 
@@ -13,6 +12,7 @@ import React from "react";
 function Home() {
   return (
     <>
+    <div className="homii">
     <div class="container">
     <Carousel>
                 <div>
@@ -35,8 +35,9 @@ function Home() {
             </Carousel>
             
     </div>
-    
+    </div>
     </>
+
   );
 }
 
