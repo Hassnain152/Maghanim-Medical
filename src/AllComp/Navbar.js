@@ -15,7 +15,7 @@ function Navbar() {
     <div className="App">
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
-        style={{ backgroundColor: "white", height: "auto" }}
+        style={{ backgroundColor: "white", height: "auto"}}
       >
         <div className="container-fluid">
           {/* Logo */}
@@ -80,16 +80,16 @@ function Navbar() {
               <li className="items">
                 <a
                   className="nav-link"
-                  href="#Client"
+                  href="#Clients"
                   style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
-                  OUR CLIENTS
+                  TESTIMONIAL
                 </a>
               </li>
               <li className="items">
                 <a
                   className="nav-link"
-                  href="#offer"
+                  href="#Services"
                   style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
                   SERVICES
@@ -98,10 +98,10 @@ function Navbar() {
               <li className="items">
                 <a
                   className="nav-link"
-                  href="#projects"
+                  href="#Projects"
                   style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
                 >
-                  PROJECTS
+                  OUR BRANCHES
                 </a>
               </li>
               <li className="items">

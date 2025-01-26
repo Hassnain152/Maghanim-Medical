@@ -7,14 +7,15 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 import React from "react";
+import { } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 
 function Home() {
   return (
     <>
     <div className="homii">
-    <div class="container">
-    <Carousel>
+
+    <Carousel style={{width:"100%"}}>
                 <div>
                     <img src= {pic1}/>
                     
@@ -35,7 +36,7 @@ function Home() {
             </Carousel>
             
     </div>
-    </div>
+    
     </>
 
   );

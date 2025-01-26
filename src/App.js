@@ -5,6 +5,11 @@ import Home from './AllComp/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import Aboutus from './AllComp/Aboutus';
+import Clients from './AllComp/Clients';
+import Services from './AllComp/Services';
+import Projects from './AllComp/Projects';
+import Contactus from './AllComp/Contactus';
+
 
 function App() {
   return (
@@ -13,6 +18,10 @@ function App() {
     <Navbar/>
     <Home/>
     <Aboutus/>
+    <Clients/>
+    <Services/>
+    <Projects/>
+    <Contactus/>
     </>
     </div>
   );
