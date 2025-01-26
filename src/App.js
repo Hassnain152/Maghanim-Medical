@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './AllComp/Navbar';
 import Home from './AllComp/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (
