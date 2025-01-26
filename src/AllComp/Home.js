@@ -2,6 +2,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
  import carsl from "../Assets/mnb.jpg"
  import cars2 from "../Assets/mnb2.jpg"
+ import pic1 from "../Assets/hoss.png"
+ import pic2 from "../Assets/hosi.png"
+
 
 
 import React from "react";
@@ -13,20 +16,20 @@ function Home() {
     <div class="container">
     <Carousel>
                 <div>
-                    <img src= {cars2}/>
+                    <img src= {pic1}/>
                     
                 </div>
                 <div>
-                    <img src={carsl} />
+                    <img src={pic2} />
                    
                 </div>
                 <div>
-                    <img src={cars2} />
+                    <img src={pic1} />
                   
                 </div>
 
                 <div>
-                    <img src={carsl} />
+                    <img src={pic2} />
                   
                 </div>
             </Carousel>
