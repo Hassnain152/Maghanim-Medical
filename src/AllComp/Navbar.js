@@ -63,7 +63,7 @@ function Navbar() {
                   href="#top"
                   style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
                 >
-                  HOMEe
+                  HOME
                 </a>
               </li>
               <li className="items">
