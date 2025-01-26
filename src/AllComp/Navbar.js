@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../Assets/logoo.png";
+import logo from "../Assets/logoR.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
@@ -26,7 +26,7 @@ function Navbar() {
               style={{
                 width: "130px",
                 height: "auto",
-                maxHeight: "85px",
+                
               }}
             />
           </a>
