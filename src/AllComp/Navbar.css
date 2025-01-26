@@ -5,7 +5,26 @@
     
     
   }
-  
+
+
+  .App {
+    .navii{
+     
+      @media (max-width: 768px) {
+        margin-bottom: 100px;/* Adjust based on the height of your navbar */
+        padding-top: 0;
+      }
+    }
+  }
+
+  .App{
+    @media (max-width: 768px) {
+      .carousel-container {
+        margin-top: 70px; /* Adjust based on the height of your navbar */
+        padding-top: 0;
+      }
+    }
+  }
   
    
   

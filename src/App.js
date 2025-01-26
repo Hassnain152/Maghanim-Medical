@@ -9,6 +9,7 @@ import Clients from './AllComp/Clients';
 import Services from './AllComp/Services';
 import Projects from './AllComp/Projects';
 import Contactus from './AllComp/Contactus';
+import Footer from './AllComp/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Services/>
     <Projects/>
     <Contactus/>
+    <Footer/>
     </>
     </div>
   );

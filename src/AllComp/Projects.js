@@ -1,11 +1,76 @@
 import React from 'react'
-
+// this page is our branches
+import hoss from "../Assets/hoss.png"
+import "./Project.css"
 function Projects() {
   return (
     <section id='Projects'>
         <div class ="container">
-        <h1  style={{color:"red"}}>Our Projects</h1>
-      <h1>ur Company Name], we take pride in delivering exceptional results for our clients. Over the years, we’ve had the privilege of working on a wide variety of projects across different industries. From small-scale initiatives to large, complex solutions, our team is dedicated to ensuring every project is completed to the highest standards. Below are some of our most notable projects:</h1>
+        <h1  style={{color:"#005da7"}}>Our Branches</h1>
+<div  class="row " >
+    
+    <div class="col-md-4 mt-5" >
+
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">AL Taj Poly <br/>Clinic</h2>
+  </div>
+</div>
+
+
+    </div>
+    
+
+    <div class="col-md-4 mt-5">
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">Dose Poly <br/> Clinic</h2>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-4 mt-5">
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">AL Sarour Pharmacy </h2>
+  </div>
+</div>
+    </div>
+</div>
+
+<div class="row text-center" >
+    <div class="col-md-4 mt-5">
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">Maghanim Marketing</h2>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-4 mt-5">
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">Daily Dose <br/> Cafe</h2>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-4 mt-5">
+    <div  class="card" style={{width: "18rem" , border: '3px solid #000000', borderRadius: '15px'}}>
+  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <div class="card-body">
+    <h2 class="card-text">Maghanim Marketing</h2>
+  </div>
+</div>
+    </div>
+
+    
+</div>
     </div>
     </section>
     
