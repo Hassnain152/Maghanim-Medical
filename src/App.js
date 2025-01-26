@@ -4,6 +4,7 @@ import Navbar from './AllComp/Navbar';
 import Home from './AllComp/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import Aboutus from './AllComp/Aboutus';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <>
     <Navbar/>
     <Home/>
+    <Aboutus/>
     </>
     </div>
   );
