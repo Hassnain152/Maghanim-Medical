@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
         <p className="text-center mt-4">&copy; 2024 Maghanim Medical co.LLC. All rights reserved.</p>
         <div class="row">
-        <p class=" col-md-12 text-center">Design by Code&Craft Your Website Is call Away </p>
+        <p class=" col-md-12 text-center">Deesign by Code&Craft Your Website Is call Away </p>
         <p class=" col-md-12 text-center"> Call At +966503045722</p>
         </div>
        
