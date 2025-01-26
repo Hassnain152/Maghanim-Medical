@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../Assets/logoR.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./Navbar.css"
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -14,7 +15,7 @@ function Navbar() {
     <div className="App">
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
-        style={{ backgroundColor: "white", height: "100px" }}
+        style={{ backgroundColor: "white", height: "auto" }}
       >
         <div className="container-fluid">
           {/* Logo */}
@@ -61,7 +62,7 @@ function Navbar() {
                   className="nav-link"
                   aria-current="page"
                   href="#top"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   HOME
                 </a>
@@ -70,7 +71,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Aboutus"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   ABOUT US
                 </a>
@@ -79,7 +80,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Client"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   OUR CLIENTS
                 </a>
@@ -88,7 +89,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#offer"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   SERVICES
                 </a>
@@ -97,7 +98,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#projects"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   PROJECTS
                 </a>
@@ -106,7 +107,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Contactus"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "15px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "15px" }}
                 >
                   CONTACT US
                 </a>
