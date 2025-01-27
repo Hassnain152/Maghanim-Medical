@@ -1,7 +1,8 @@
 
-import sdi1 from "../Assets/ksa1.png"
+import wsm from "../Assets/wasm.jpeg"
 import sdi2 from "../Assets/ksa2.png"
-import sdi3 from "../Assets/ksa3.png"
+import ariif  from "../Assets/bvc.jpg"
+import hmza from "../Assets/mnb.jpeg"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
@@ -12,6 +13,7 @@ const Clients = () => {
       Aos.init({ duration: 5000 });
     }, []);
   return (
+    <section id="Clients">
     <div className="bg-light py-5">
       <div className="container text-center">
         <div className="text-center mb-5">
@@ -27,14 +29,14 @@ const Clients = () => {
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                    src={sdi1}
+                    src={ariif}
                     alt="John Doe"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />
                   <div>
-                    <h5 className="fw-bold mb-0">Abu Abdul Aziz</h5>
-                    <small className="text-muted">CEO, TechCorp</small>
+                    <h5 className="fw-bold mb-0">M.Arif</h5>
+                    <small className="text-muted">CEO, GhalaIbrahim</small>
                   </div>
                 </div>
                 <blockquote className="blockquote">
@@ -63,14 +65,14 @@ const Clients = () => {
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                   src={sdi2}
+                   src={wsm}
                     alt="Jane Smith"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />
                   <div>
-                    <h5 className="fw-bold mb-0">Abdul Bin Oof</h5>
-                    <small className="text-muted">Marketing Director, CreativeCo</small>
+                    <h5 className="fw-bold mb-0">Engr Waseem </h5>
+                    <small className="text-muted"> CEO,Makinati</small>
                   </div>
                 </div>
                 <blockquote className="blockquote">
@@ -97,14 +99,14 @@ const Clients = () => {
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                    src={sdi3}
+                    src={hmza}
                     alt="David Lee"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />
                   <div>
-                    <h5 className="fw-bold mb-0">Abu Khalid</h5>
-                    <small className="text-muted">Founder, Startup Inc.</small>
+                    <h5 className="fw-bold mb-0">M.Hamza</h5>
+                    <small className="text-muted">Sales Manager, MosasaSona</small>
                   </div>
                 </div>
                 <blockquote className="blockquote">
@@ -129,6 +131,7 @@ const Clients = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

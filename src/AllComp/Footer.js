@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faSnapchat, faTiktok} from "@fortawesome/free-brands-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -24,7 +24,7 @@ const Footer = () => {
               className="text-primary"
               aria-label="Facebook"
             >
-              <FontAwesomeIcon icon={faFacebook}  size="2x" bounce />
+              <FontAwesomeIcon icon={faFacebook}   size="2x" bounce />
 
 
               
@@ -41,7 +41,12 @@ const Footer = () => {
               aria-label="Instagram"
             >
               
-              <FontAwesomeIcon icon={faInstagram}  size="2x" bounce />
+              <FontAwesomeIcon icon={faSnapchat}  size="2x" bounce   style={{ 
+            color: 'white', 
+            backgroundColor: '#FFFC00', 
+            borderRadius: '90%', 
+            
+          }} />
             </a>
           </div>
 
@@ -54,7 +59,8 @@ const Footer = () => {
               className="text-primary"
               aria-label="LinkedIn"
             >
-              <FontAwesomeIcon icon={faLinkedin} size="2x" bounce />
+              <FontAwesomeIcon icon={faTiktok}  size="2x" bounce  style={{ color: 'red',  }} />
+              {/* <FontAwesomeIcon icon={faLinkedin} size="2x" bounce /> */}
 </a>
 
           </div>
@@ -62,7 +68,7 @@ const Footer = () => {
           
 
         </div>
-        <p className="text-center mt-4">&copy; 2025 Maghanim Medical co.LLC. All rights reserved.</p>
+        <p className="text-center mt-4">&copy; 2025 Maghanim Medical Co.LLC. All rights reserved.</p>
         <div class="row">
         <p class=" col-md-12 text-center">Design By Code&Craft Your Website Is Call Away </p>
         <p class=" col-md-12 text-center"> Call At +966503045722</p>

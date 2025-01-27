@@ -10,9 +10,7 @@ function Contactus() {
   useEffect(() => {
       Aos.init({ duration: 5000 });
     }, []);
-  return (
-    
-    <section id="Contactus">
+  return (<section id="Contactus">
         <div class ="container">
 
         <div class="row mt-5">
