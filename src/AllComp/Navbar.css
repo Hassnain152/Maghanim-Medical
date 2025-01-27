@@ -17,19 +17,6 @@
     }
   }
 
-  .App{
-    @media (max-width: 768px) {
-      .carousel-container {
-        margin-top: 70px; /* Adjust based on the height of your navbar */
-        padding-top: 0;
-      }
-    }
-  }
-  
-   
-  
-  
- 
   
   .items:hover {
     text-decoration: underline;

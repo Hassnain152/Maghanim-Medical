@@ -62,7 +62,7 @@ function Projects() {
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
   <img class="card-img-top" src={hoss} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Daily Dose  Cafe</h2>
+    <h2 class="card-text">Daily Dose <br/> Cafe</h2>
   </div>
 </div>
     </div>
