@@ -12,7 +12,7 @@ function Projects() {
     }, []);
   return (
     <section id='Projects'>
-        <div class ="container text-center">
+        <div class ="container text-center" style={{padding:"100px"}}>
         <h1  style={{color:"#005da7"}}>Our Branches</h1>
 <div  class="row " >
     

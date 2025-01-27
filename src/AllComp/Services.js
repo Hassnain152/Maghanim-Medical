@@ -13,7 +13,7 @@ function Services() {
   return (
     <section  id='Services'>
 
-        < div className='contt' class ="container  text-center" >
+        < div  class ="container  text-center" style={{padding:"100px"}} >
        
             <div class="row text-center">
             <h1 class="col-md-12 "    style={{color:"#005da7"}}>OUR SERVICES</h1>

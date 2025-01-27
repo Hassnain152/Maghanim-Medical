@@ -60,6 +60,7 @@ const Footer = () => {
               aria-label="LinkedIn"
             >
               <FontAwesomeIcon icon={faTiktok}  size="2x" bounce  style={{ color: 'red',  }} />
+              
               {/* <FontAwesomeIcon icon={faLinkedin} size="2x" bounce /> */}
 </a>
 

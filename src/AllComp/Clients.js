@@ -15,7 +15,7 @@ const Clients = () => {
   return (
     <section id="Clients">
     <div className="bg-light py-5">
-      <div className="container text-center">
+      <div className="container text-center " style={{padding:"100px"}}>
         <div className="text-center mb-5">
           <h1 className="display-4 fw-bold" style={{color:"#005da7"}}>What Our Coustomer Say</h1>
           <p className="lead text-muted">
