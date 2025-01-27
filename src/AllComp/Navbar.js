@@ -63,7 +63,7 @@ function Navbar() {
                   className="nav-link"
                   aria-current="page"
                   href="#top"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   HOME
                 </a>
@@ -72,7 +72,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Aboutus"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   ABOUT US
                 </a>
@@ -81,7 +81,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Clients"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   TESTIMONIAL
                 </a>
@@ -90,7 +90,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Services"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   SERVICES
                 </a>
@@ -99,7 +99,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Projects"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   OUR BRANCHES
                 </a>
@@ -108,7 +108,7 @@ function Navbar() {
                 <a
                   className="nav-link"
                   href="#Contactus"
-                  style={{ fontSize: 20, color: "#4e382a", padding: "30px" }}
+                  style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   CONTACT US
                 </a>
