@@ -70,6 +70,7 @@ function Projects() {
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
   <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  {/* style={{width:"20px", height:"20px"}} */}
   <div class="card-body">
     <h2 class="card-text">Maghanim Marketing</h2>
   </div>
