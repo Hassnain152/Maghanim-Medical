@@ -34,7 +34,7 @@ const Footer = () => {
           {/* Instagram */}
           <div className="col-auto">
             <a
-              href="https://www.instagram.com"
+              href="https://www.snapchat.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-danger"
@@ -53,7 +53,7 @@ const Footer = () => {
           {/* WhatsApp */}
           <div className="col-auto">
           <a
-              href="https://www.linkedin.com/in/your-profile"
+              href="https://www.tiktok.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary"
