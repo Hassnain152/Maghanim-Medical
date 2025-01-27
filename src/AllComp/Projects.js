@@ -1,8 +1,15 @@
-import React from 'react'
+
 // this page is our branches
 import hoss from "../Assets/hoss.png"
 import "./Project.css"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
 function Projects() {
+  useEffect(() => {
+      Aos.init({ duration: 5000 });
+    }, []);
   return (
     <section id='Projects'>
         <div class ="container">

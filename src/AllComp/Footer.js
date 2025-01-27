@@ -4,7 +4,11 @@ import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-sv
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const Footer = () => {
+  useEffect(() => {
+      Aos.init({ duration: 5000 });
+    }, []);
    
   return (
     <footer className="bg-dark text-white py-4">

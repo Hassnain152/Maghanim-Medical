@@ -1,10 +1,19 @@
-import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
 
+
+
+   
 
 function Aboutus() {
+  useEffect(() => {
+    Aos.init({ duration: 5000 });
+  }, []);
   return (
     <section id='Aboutus'>
       <div class ="container" >

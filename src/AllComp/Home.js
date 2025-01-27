@@ -3,14 +3,20 @@ import { Carousel } from 'react-responsive-carousel';
  import pic1 from "../Assets/hoss.png"
  import pic2 from "../Assets/hosi.png"
  import "./Home.css"
+ import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
 
 
 
-import React from "react";
+
 import { } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 
 function Home() {
+    useEffect(() => {
+        Aos.init({ duration: 5000 });
+      }, []);
   return (
     <>
     <div className="homii">

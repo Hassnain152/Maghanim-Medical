@@ -1,6 +1,11 @@
-import React from 'react'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
 
 function Contactus() {
+  useEffect(() => {
+      Aos.init({ duration: 5000 });
+    }, []);
   return (
     
     <section id="Contactus">
