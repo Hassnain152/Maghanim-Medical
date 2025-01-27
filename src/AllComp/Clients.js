@@ -88,6 +88,7 @@ const Clients = () => {
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
                 </div>
               </div>
             </div>
@@ -112,9 +113,8 @@ const Clients = () => {
                 <blockquote className="blockquote">
                   <p className="mb-3">
                     <i className="text-muted me-2 fa fa-quote-left"></i>
-                    Their expertise and professionalism are truly outstanding.
-                    They delivered exceptional results on time and within
-                    budget.
+                    Their expertise and professionalism is outstanding.
+                    They delivered exceptional results with in budget.
                     <i className="text-muted ms-2 fa fa-quote-right"></i>
                   </p>
                 </blockquote>

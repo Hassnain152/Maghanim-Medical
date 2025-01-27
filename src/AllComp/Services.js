@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Services.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Typical from "react-typical";
 
 
 
@@ -24,6 +25,8 @@ function Services() {
             </div>
             <div class="row ">
                 <div class="col-md-4">
+                
+
                     <h1>Cosmetology</h1>
                 </div>
                 <div class="col-md-4">
