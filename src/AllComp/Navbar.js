@@ -21,7 +21,7 @@ function Navbar() {
     <div className="App">
       <nav
         className="navbar navbar-expand-lg navbar-light fixed-top"
-        style={{ backgroundColor: "#54cdcd", height: "auto"}}
+        style={{ backgroundColor: "white", height: "auto"}}
       >
         <div className="container-fluid">
           {/* Logo */}
