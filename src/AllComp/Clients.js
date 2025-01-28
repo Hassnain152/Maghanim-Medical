@@ -1,15 +1,12 @@
 
 import icon from "../Assets/icon.png"
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 import "./clnt.css"
 import React, { useEffect, useState } from "react";
 //  this is testimonial page
 
 const Clients = () => {
-  useEffect(() => {
-      Aos.init({ duration: 5000 });
-    }, []);
+  
   return (
     <section id="Clients">
     <div className="bg-light py-5">
