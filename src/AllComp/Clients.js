@@ -13,7 +13,7 @@ const Clients = () => {
         <div className="text-center mb-5">
           <h1 className="display-4 fw-bold" style={{color:"#005da7"}}>What Our Coustomer Say</h1>
           <p className="lead text-muted">
-            Hear from some of our happy customers who trust us for their work.
+            Hear from our happy customers who trust us for their work.
           </p>
         </div>
         <div className="row g-4">
