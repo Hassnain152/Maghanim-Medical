@@ -22,7 +22,7 @@ const Clients = () => {
         </div>
         <div className="row g-4">
           {/* Testimonial 1 */}
-          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+          {/* <div class="shapdow" className="col-12 col-md-6 col-lg-4">
             <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
@@ -55,16 +55,16 @@ const Clients = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Testimonial 2 */}
-          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+          <div class="shapdow" >
             <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
                    src={icon}
-                    alt="Jane Smith"
+                    alt="engr Wasee,"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />
@@ -77,12 +77,12 @@ const Clients = () => {
                   <p className="mb-3">
                     <i className="text-muted me-2 fa fa-quote-left"></i>
                     Absolutely love their work! The team went above and beyond
-                    to meet our expectations. Highly recommend them!
+                    to meet our expectations. Highly recommend them.AndTheir expertise and professionalism is outstanding.
                     <i className="text-muted ms-2 fa fa-quote-right"></i>
                   </p>
                  
                 </blockquote>
-                <div className="d-flex text-warning">
+                <div className="d-flex text-warning ">
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
@@ -94,7 +94,7 @@ const Clients = () => {
           </div>
 
           {/* Testimonial 3 */}
-          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+          {/* <div class="shapdow" className="col-12 col-md-6 col-lg-4">
             <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
@@ -126,7 +126,7 @@ const Clients = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
