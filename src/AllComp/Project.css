@@ -1,3 +1,5 @@
 .card{
-  box-shadow:inset 1px -1px 14px -1px #000000
+  
+    box-shadow: 0 4px 8px 0 rgb(0, 93, 167), 0 16px 10px 0 rgba(0, 0, 0, 0.19);
+    
 }
