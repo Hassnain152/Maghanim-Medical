@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSnapchat, faTiktok} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faSnapchat, faTiktok,faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -18,13 +18,13 @@ const Footer = () => {
           {/* Facebook */}
           <div className="col-auto">
             <a
-              href="https://www.facebook.com/profile.php?id=61571318099781&mibextid=ZbWKwL"
+              href="https://www.linkedin.com/in/maghanim-medical-5a2172349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary"
-              aria-label="Facebook"
-            >
-              <FontAwesomeIcon icon={faFacebook}   size="2x" bounce />
+              aria-label="Linkdin"
+            > 
+              <FontAwesomeIcon icon={ faLinkedin}   size="2x" bounce />
 
 
               
@@ -34,17 +34,15 @@ const Footer = () => {
           {/* Instagram */}
           <div className="col-auto">
             <a
-              href="https://www.snapchat.com/"
+              href="https://www.instagram.com/c.dose1?igsh=ZHNnMmJnOHUyem5r"
               target="_blank"
               rel="noopener noreferrer"
               className="text-danger"
               aria-label="Instagram"
             >
               
-              <FontAwesomeIcon icon={faSnapchat}  size="2x" bounce   style={{ 
-            color: 'white', 
-            backgroundColor: '#FFFC00', 
-            borderRadius: '90%', 
+              <FontAwesomeIcon icon={faInstagram}  size="2x" bounce   style={{ 
+            
             
           }} />
             </a>
@@ -53,7 +51,7 @@ const Footer = () => {
           {/* WhatsApp */}
           <div className="col-auto">
           <a
-              href="https://www.tiktok.com/"
+              href="https://www.tiktok.com/@c.dose1?_t=ZS-8tRXG0qZWGC&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary"
