@@ -23,24 +23,14 @@ function Contactus() {
           <img  className="resp" style={{width:"250px", height:"250px"}}  src={telee}/>
           </div>
 
-          <div class="col-md-6 mt-0">
+          <div class="col-md-6 mt-5 text-center">
             <div class="row">
-              <div class="col-md-12"> <h6>فارس  بن سرور القثامى العتيبى</h6></div>
-              <div class="col-md-12"> <h6>رئيس مجلس الادارة </h6></div>
-              <div class="col-md-12"> <h6>0555556790</h6></div>
+              <div class="col-md-12"> <h3>فارس  بن سرور القثامى العتيبى</h3></div>
+              <div class="col-md-12"> <h4>رئيس مجلس الادارة </h4></div>
+              <div class="col-md-12"> <h5>0555556790</h5></div>
             </div>
 
-            <div class="row mt-3">
-              <div class="col-md-12"> <h6>perso2Name</h6></div>
-              <div class="col-md-12"> <h6>position</h6></div>
-              <div class="col-md-12"> <h6>Contact No</h6></div>
-            </div>
-
-            <div class="row mt-3">
-              <div class="col-md-12"> <h6>person3Name</h6></div>
-              <div class="col-md-12"> <h6>position</h6></div>
-              <div class="col-md-12"> <h6>Contact No</h6></div>
-            </div>
+            
           </div>
         </div>
 
