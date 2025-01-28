@@ -25,9 +25,9 @@ function Contactus() {
 
           <div class="col-md-6 mt-0">
             <div class="row">
-              <div class="col-md-12"> <h6>person1Name</h6></div>
-              <div class="col-md-12"> <h6>position</h6></div>
-              <div class="col-md-12"> <h6>Contact No</h6></div>
+              <div class="col-md-12"> <h6>فارس  بن سرور القثامى العتيبى</h6></div>
+              <div class="col-md-12"> <h6>رئيس مجلس الادارة </h6></div>
+              <div class="col-md-12"> <h6>0555556790</h6></div>
             </div>
 
             <div class="row mt-3">
