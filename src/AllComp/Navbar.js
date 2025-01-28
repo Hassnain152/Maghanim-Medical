@@ -33,9 +33,9 @@ function Navbar() {
               src={logok}
               alt="Logo"
               style={{
-                width: "150px",
+                width: "130px",
                 height: "auto",
-                maxHeight: "150px",
+                maxHeight: "105px",
               }}
             />
           </a>
