@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect,useState } from "react";
 import logok from "../Assets/logoR.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Navbar.css"
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -10,6 +13,9 @@ function Navbar() {
   const toggleNavbar = () => {
     setIsNavCollapsed(!isNavCollapsed);
   };
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
   return (
     <div className="App">
@@ -20,7 +26,7 @@ function Navbar() {
         <div className="container-fluid">
           {/* Logo */}
           <a className="navbar-brand" href="#top">
-            <img
+          <img
               className="logoo"
               data-aos="slide-down"
               data-aos-delay="100"
@@ -29,7 +35,7 @@ function Navbar() {
               style={{
                 width: "130px",
                 height: "auto",
-                maxHeight: "85px",
+                maxHeight: "105px",
               }}
             />
           </a>

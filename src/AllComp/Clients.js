@@ -1,10 +1,8 @@
 
-import wsm from "../Assets/wasm.jpeg"
-import sdi2 from "../Assets/ksa2.png"
-import ariif  from "../Assets/bvc.jpg"
-import hmza from "../Assets/mnb.jpeg"
+import icon from "../Assets/icon.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./clnt.css"
 import React, { useEffect, useState } from "react";
 //  this is testimonial page
 
@@ -24,12 +22,12 @@ const Clients = () => {
         </div>
         <div className="row g-4">
           {/* Testimonial 1 */}
-          <div className="col-12 col-md-6 col-lg-4">
-            <div className="card shadow border-0 h-100">
+          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+            <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                    src={ariif}
+                    src={icon}
                     alt="John Doe"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
@@ -60,12 +58,12 @@ const Clients = () => {
           </div>
 
           {/* Testimonial 2 */}
-          <div className="col-12 col-md-6 col-lg-4">
-            <div className="card shadow border-0 h-100">
+          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+            <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                   src={wsm}
+                   src={icon}
                     alt="Jane Smith"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
@@ -82,6 +80,7 @@ const Clients = () => {
                     to meet our expectations. Highly recommend them!
                     <i className="text-muted ms-2 fa fa-quote-right"></i>
                   </p>
+                 
                 </blockquote>
                 <div className="d-flex text-warning">
                   <i className="fa fa-star"></i>
@@ -95,12 +94,12 @@ const Clients = () => {
           </div>
 
           {/* Testimonial 3 */}
-          <div className="col-12 col-md-6 col-lg-4">
-            <div className="card shadow border-0 h-100">
+          <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+            <div >
               <div className="card-body">
                 <div className="d-flex align-items-center mb-4">
                   <img
-                    src={hmza}
+                    src={icon}
                     alt="David Lee"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}

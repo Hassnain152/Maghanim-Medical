@@ -2,6 +2,12 @@
 // this page is our branches
 import hoss from "../Assets/hoss.png"
 import "./Project.css"
+import alsor from "../Assets/alsaror.png"
+import comp2 from "../Assets/comp2.png"
+import cafe from "../Assets/dailydose.png"
+import majma from "../Assets/majma.png"
+import clinic from "../Assets/doseCli.png"
+import compp from "../Assets/copm1.png"
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +25,7 @@ function Projects() {
     <div class="col-md-4 mt-5" >
 
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={majma} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">AL Taj Poly <br/>Clinic</h2>
   </div>
@@ -31,7 +37,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={clinic} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Dose Poly <br/> Clinic</h2>
   </div>
@@ -40,7 +46,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={alsor} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">AL Sarour  <br/>Pharmacy </h2>
   </div>
@@ -51,7 +57,7 @@ function Projects() {
 <div class="row text-center" >
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={comp2} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Maghanim Marketing</h2>
   </div>
@@ -60,7 +66,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={cafe} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Daily Dose <br/> Cafe</h2>
   </div>
@@ -69,7 +75,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  border: '3px solid #000000', borderRadius: '15px'}}>
-  <img class="card-img-top" src={hoss} alst="Card image cap"/>
+  <img class="card-img-top" src={compp} alst="Card image cap"/>
   {/* style={{width:"20px", height:"20px"}} */}
   <div class="card-body">
     <h2 class="card-text">Maghanim Marketing</h2>
