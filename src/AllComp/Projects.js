@@ -25,16 +25,13 @@ function Projects() {
         
 <div  class="row " >
     
-    <div class="col-md-4 mt-5" > 
-
-    <div  class="card" >
+<div class="col-md-4 mt-5" >
+    <div  class="card" style={{ }}>
   <img style={{ }} class="card-img-top" src={majma} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">AL Taj Poly <br/>Clinic</h2>
+    <h2 class="card-text">Al taj Poly <br/> Clinic</h2>
   </div>
 </div>
-
-
     </div>
     
 
