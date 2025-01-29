@@ -55,7 +55,7 @@ function Services() {
     <div  class="card" style={{ }}>
   <img style={{  }} class="card-img-top" src={dental} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Dental Plant </h2>
+    <h2 class="card-text">Dental Implant</h2>
   </div>
 </div>
     </div>
