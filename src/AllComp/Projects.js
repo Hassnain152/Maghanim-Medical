@@ -1,6 +1,6 @@
 
-// this page is our branches
-import hoss from "../Assets/hoss.png"
+// this page is our branches 
+
 import "./Project.css"
 import alsor from "../Assets/alsaror.png"
 import comp2 from "../Assets/comp2.png"
