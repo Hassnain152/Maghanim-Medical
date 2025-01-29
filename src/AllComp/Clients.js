@@ -60,7 +60,7 @@ const Clients = () => {
                 <div className="d-flex align-items-center mb-4">
                   <img
                    src={icon}
-                    alt="engr Wasee,"
+                    alt="engr Waseem"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />
