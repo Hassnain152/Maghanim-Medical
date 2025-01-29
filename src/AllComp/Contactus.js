@@ -28,9 +28,9 @@ function Contactus() {
 
           <div class="col-md-6 mt-5 text-center">
             <div class="row">
-              <div class="col-md-12"> <h3>فارس  بن سرور القثامى العتيبى</h3></div>
-              <div class="col-md-12"> <h4>رئيس مجلس الادارة </h4></div>
-              <div class="col-md-12"> <h5>0555556790</h5></div>
+              <div class="col-md-12"> <h2>فارس  بن سرور القثامى العتيبى</h2></div>
+              <div class="col-md-12"> <h3>رئيس مجلس الادارة </h3></div>
+              <div class="col-md-12"> <h4>0555556790</h4></div>
             </div>
 
             
