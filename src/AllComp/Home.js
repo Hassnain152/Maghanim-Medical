@@ -24,7 +24,7 @@ function Home() {
     <>
     <div className="homii">
 
-    <Carousel style={{width:"100%"}}>
+    <Carousel  >
                 <div>
                     <img src= {pic1}/>
                     
