@@ -1,5 +1,5 @@
 
-// this page is our branches 
+
 
 import "./Project.css"
 import alsor from "../Assets/alsaror.png"
@@ -8,7 +8,7 @@ import cafe from "../Assets/dailydose.png"
 import majma from "../Assets/majma.png"
 import clinic from "../Assets/doseCli.png"
 import compp from "../Assets/copm1.png"
-
+// this page is our branches 
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useState } from "react";
