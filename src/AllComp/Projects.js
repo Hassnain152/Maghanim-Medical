@@ -18,8 +18,11 @@ function Projects() {
     }, []);
   return (
     <section id='Projects'>
-        <div class ="container text-center" style={{padding:"100px"}}>
+        <div class ="container text-center" style={{paddingTop:"120px"}}>
         <h1  style={{color:"#005da7"}}>Our Branches</h1>
+
+
+        
 <div  class="row " >
     
     <div class="col-md-4 mt-5" > 
@@ -70,7 +73,7 @@ function Projects() {
     <div  class="card" style={{  }}>
   <img style={{ }} class="card-img-top" src={cafe} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Daily Dose <br/> Cafe</h2>
+    <h2 class="card-text">Daily Dose Cafe</h2>
   </div>
 </div>
     </div>

@@ -1,5 +1,8 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faSnapchat, faTiktok,faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import { faMapLocation } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from "react";
 import telee from "../Assets/knt.jpg"
 import "./Contactus.css"
@@ -15,7 +18,7 @@ function Contactus() {
 
         <div class="row mt-5">
           <div class="col-md-12">
-            <h1 className="biodata">CONTACT US</h1>
+            <h1  style={{color:"#005da7"}}>CONTACT US</h1> 
           </div>
         </div>
         <div class="row " >
@@ -35,7 +38,9 @@ function Contactus() {
         </div>
 
         <div class ="row text-center ">
-      <h1 style={{ color:"#212529"}}  data-aos="zoom-in-right">Locate Us</h1>
+      <h1  style={{color:"#005da7"}} data-aos="zoom-in-right">LOCATE US
+        <a  style={{color:"#005da7"}}> <FontAwesomeIcon className="custom-icon" icon={faMapLocation}  bounce/></a>
+      </h1>
         </div>
       <iframe class="mt-4"style={{ width:"100%" ,height:"450" , allowfullscreen:"1" ,loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.7552694658966!2d40.47360949999999!3d21.4388623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15ea2f7d34d78f7d%3A0xa6d814be696ba44a!2z2YXYrNmF2Lkg2KfZhNiq2KfYrCDYp9mE2LfYqNmK!5e0!3m2!1sen!2ssa!4v1738000804549!5m2!1sen!2ssa" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
       </iframe>
