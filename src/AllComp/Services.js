@@ -44,7 +44,7 @@ function Services() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{ }} class="card-img-top" src={bone} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={bone} alt="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Orthopedics</h2>
   </div>
