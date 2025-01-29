@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Services.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
-import cos from "../Assets/coms.jpg"
-import hydra from "../Assets/hydra.jpg"
 import dental from "../Assets/dntal.jpg"
 import drm from "../Assets/drm.jpg"
 import lsr from "../Assets/lsr.jpg"
@@ -11,6 +9,8 @@ import radio from  "../Assets/radio.jpg"
 import lab from  "../Assets/lab.jpg"
 import emr from  "../Assets/emer.jpg"
 import pedd from "../Assets/ped.jpg"
+import eye from "../Assets/eye.jpg"
+import bone from "../Assets/bone.jpg"
 
 
 
@@ -32,7 +32,7 @@ function Services() {
     <div class="col-md-4 mt-5" > 
 
     <div  class="card" >
-  <img style={{ }} class="card-img-top" src={cos} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={eye} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Ophthalmology</h2>
   </div>
@@ -44,7 +44,7 @@ function Services() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{ }} class="card-img-top" src={hydra} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={bone} alst="Card image cap"/>
   <div class="card-body">
     <h2 class="card-text">Orthopedics</h2>
   </div>
