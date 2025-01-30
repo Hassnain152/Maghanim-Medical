@@ -29,7 +29,7 @@ function Projects() {
     <div  class="card" style={{ }}>
   <img style={{ }} class="card-img-top" src={majma} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Al taj Poly <br/> Clinic</h2>
+    <h2 class="card-text">Al Taj Poly <br/> Clinic</h2>
   </div>
 </div>
     </div>
