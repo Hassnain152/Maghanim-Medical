@@ -40,7 +40,7 @@ export default function Form() {
   };
 
   return (
-    <div className="container">
+    <div className="containerF">
       <h2>Reach Out to Us!</h2>
       <form onSubmit={handleSubmit}>
         <label>

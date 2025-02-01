@@ -1,4 +1,4 @@
-.container {
+.containerF {
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
@@ -52,12 +52,12 @@
   
   /* Mobile Responsive */
   @media (max-width: 480px) {
-    .container {
+    .containerF {
       width: 90%;
     }
   }
 
-  .container {
+  .containerF {
   max-width: 400px;
   margin: 40px auto;
   padding: 20px;
@@ -110,11 +110,11 @@ button:hover {
 }
 
 /* Mobile Responsive */
-@media (max-width: 480px) {
-  .container {
+/* @media (max-width: 480px) {
+  .containerF {
     width: 90%;
   }
-}
+} */
 textarea {
     resize: none; /* Disable resizing */
   }
