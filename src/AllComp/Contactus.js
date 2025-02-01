@@ -14,7 +14,7 @@ function Contactus() {
       Aos.init({ duration: 5000 });
     }, []);
   return (<section id="Contactus">
-        <div class ="container" >
+        <div class ="container"  className="cont">
 
         <div class="row mt-5">
           <div class="col-md-12">

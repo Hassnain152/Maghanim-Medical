@@ -10,6 +10,7 @@ import Services from './AllComp/Services';
 import Projects from './AllComp/Projects';
 import Contactus from './AllComp/Contactus';
 import Footer from './AllComp/Footer';
+import Form from "./AllComp/Form"
 
 
 function App() {
@@ -19,12 +20,11 @@ function App() {
     <Navbar/>
     <Home/>
     <Clients/>
-    
-   
     <Services/>
     <Projects/>
     <Aboutus/>
     <Contactus/>
+    <Form/>
     <Footer/>
     </>
     </div>
