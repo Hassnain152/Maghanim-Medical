@@ -63,7 +63,7 @@ export default function Form() {
           <input type="file" name="file" onChange={handleChange} accept=".pdf" required />
         </label>
 
-        <button type="submit">Send Email</button>
+        <button  type="submit">Send Email</button>
       </form>
     </div>
   );

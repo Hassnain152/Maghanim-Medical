@@ -1,6 +1,7 @@
 
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import "./Project.css"
 import alsor from "../Assets/alsaror.png"
 import comp2 from "../Assets/comp2.png"
@@ -24,12 +25,18 @@ function Projects() {
 
         
 <div  class="row " >
-    
+
 <div class="col-md-4 mt-5" >
     <div  class="card" style={{ }}>
   <img style={{ }} class="card-img-top" src={majma} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Al Taj Poly <br/> Clinic</h2>
+  <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">AL Taj poly <br /> Clinic</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>
+
   </div>
 </div>
     </div>
@@ -39,7 +46,16 @@ function Projects() {
     <div  class="card" style={{ }}>
   <img style={{ }} class="card-img-top" src={clinic} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Dose Poly <br/> Clinic</h2>
+      
+  <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">Dose Poly <br /> Clinic</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>
+
+ 
+
   </div>
 </div>
     </div>
@@ -48,7 +64,15 @@ function Projects() {
     <div  class="card" style={{ }}>
   <img style={{  }} class="card-img-top" src={alsor} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">AL Sarour  <br/>Pharmacy </h2>
+
+  <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">AL Sarour <br /> Pharmacy</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>
+
+   
   </div>
 </div>
     </div>
@@ -87,6 +111,39 @@ function Projects() {
 
     
 </div>
+
+{/* <div class="buttons">
+  <button class="blob-btn">
+  Explore More About Our Branches
+    <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+    </span>
+  </button>
+  <br/>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>
+
+  
+        
+
+    </div> */}
+
+
+
+
     </div>
     </section>
     
