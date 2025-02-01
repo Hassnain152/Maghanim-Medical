@@ -83,7 +83,15 @@ function Projects() {
     <div  class="card" style={{ }}>
   <img style={{  }} class="card-img-top" src={comp2} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Maghanim Marketing</h2>
+    {/* <h2 class="card-text">Maghanim Marketing</h2> */}
+
+    <a href="https://www.maghanimco.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">Maghanim Marketing</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>
+
   </div>
 </div>
     </div>
@@ -94,8 +102,12 @@ function Projects() {
     <div  class="card" style={{  }}>
   <img style={{ }} class="card-img-top" src={cafe} alst="Card image cap"/>
   <div class="card-body">
-    <h2 class="card-text">Daily Dose Cafe</h2>
-  </div>
+  <a href=" " target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">Daily Dose Cafe</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>  </div>
 </div>
     </div>
 
@@ -104,7 +116,12 @@ function Projects() {
   <img style={{  }} class="card-img-top" src={compp} alst="Card image cap"/>
   {/* style={{width:"20px", height:"20px"}} */}
   <div class="card-body">
-    <h2 class="card-text">Maghanim Marketing</h2>
+  <a href="https://www.maghanimco.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <h2 className="card-text">Maghanim Marketing</h2>
+  <small style={{ color: 'blue', textDecoration: 'underline' }}>
+    Explore more <FontAwesomeIcon icon={faArrowRight} />
+  </small>
+</a>
   </div>
 </div>
     </div>
