@@ -102,7 +102,7 @@ function Projects() {
     <div  class="card" style={{  }}>
   <img style={{ }} class="card-img-top" src={cafe} alst="Card image cap"/>
   <div class="card-body">
-  <a href=" " target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <a href=" https://maps.app.goo.gl/D6EmBSTHXuprowsdA?g_st=com.google.maps.preview.copy " target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
   <h2 className="card-text">Daily Dose Cafe</h2>
   <small style={{ color: 'blue', textDecoration: 'underline' }}>
     Explore more <FontAwesomeIcon icon={faArrowRight} />
