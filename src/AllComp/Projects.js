@@ -30,7 +30,7 @@ function Projects() {
     <div  class="card" style={{ }}>
   <img style={{ }} class="card-img-top" src={majma} alst="Card image cap"/>
   <div class="card-body">
-  <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <a href="https://altajclinic.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
   <h2 className="card-text">AL Taj poly <br /> Clinic</h2>
   <small style={{ color: 'blue', textDecoration: 'underline' }}>
     Explore more <FontAwesomeIcon icon={faArrowRight} />
@@ -47,7 +47,7 @@ function Projects() {
   <img style={{ }} class="card-img-top" src={clinic} alst="Card image cap"/>
   <div class="card-body">
       
-  <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
+  <a href="https://doseclinic.net/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
   <h2 className="card-text">Dose Poly <br /> Clinic</h2>
   <small style={{ color: 'blue', textDecoration: 'underline' }}>
     Explore more <FontAwesomeIcon icon={faArrowRight} />

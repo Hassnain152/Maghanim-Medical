@@ -1,70 +1,45 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
-import "./Form.css";
+import "./Form.css"
 
 export default function Form() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-    file: null,
-  });
-
-  const handleChange = (e) => {
-    const { name, value, files } = e.target;
-    setFormData({
-      ...formData,
-      [name]: files ? files[0] : value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { name, email, message } = formData;
-    const subject = encodeURIComponent("Job Application");
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-
-    // Open email client
-    window.location.href = `mailto:maghanimmarketing@gmail.com?subject=${subject}&body=${body}`;
-
-    // Show success message
-    Swal.fire({
-      icon: "success",
-      title: "Email Sent!",
-      text: "Your message has been sent successfully.",
-      confirmButtonColor: "#007bff",
-    });
-
-    // Clear form fields
-    setFormData({ name: "", email: "", message: "", file: null });
-  };
 
   return (
-    <div className="containerF">
-      <h2>Reach Out to Us!</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Name:
-          <input type="text" name="name" value={formData.name} onChange={handleChange} required />
-        </label>
 
-        <label>
-          Email:
-          <input type="email" name="email" value={formData.email} onChange={handleChange} required />
-        </label>
+    <>
+    <div class="container">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1STnRBaD6AeFikr8hm4Nwi2dQdSfRVa1_08znxfoH51HM1Q/viewform?usp=sharing" target="_blank">
+    <div class="buttons">
+        <button class="blob-btn">
+            Drop Your Resume Here
+            <span class="blob-btn__inner">
+                <span class="blob-btn__blobs">
+                    <span class="blob-btn__blob"></span>
+                    <span class="blob-btn__blob"></span>
+                    <span class="blob-btn__blob"></span>
+                    <span class="blob-btn__blob"></span>
+                </span>
+            </span>
+        </button>
+        <br/>
 
-        <label>
-          Your Message:
-          <textarea name="message" value={formData.message} onChange={handleChange} required />
-        </label>
-
-        <label>
-          Upload CV:
-          <input type="file" name="file" onChange={handleChange} accept=".pdf" required />
-        </label>
-
-        <button  type="submit">Send Email</button>
-      </form>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+            </defs>
+        </svg>
     </div>
+</a>
+
+    </div>
+
+
+    
+    </>
+    
   );
 }

@@ -1,10 +1,9 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
- import pic1 from "../Assets/hoss.png"
- import pic2 from "../Assets/hosi.png"
- import cor2 from "../Assets/cr2.jpg"
- import cor3 from "../Assets/cr3.jpg"
-import asdf from "../Assets/azx.png"
+ import crn1 from "../Assets/crnN1.png"
+ import crn2 from "../Assets/crnN2.png"
+ import crn3 from "../Assets/crnN3.png"
+ import crn4 from "../Assets/crnN4.png"
  import "./Home.css"
  import Aos from "aos";
 import "aos/dist/aos.css";
@@ -26,20 +25,20 @@ function Home() {
 
     <Carousel  >
                 <div>
-                    <img src= {pic1}/>
+                    <img src= {crn4}/>
                     
                 </div>
                 <div>
-                    <img src={cor2} />
+                    <img src={crn2} />
                    
                 </div>
                 <div>
-                    <img src={cor3} />
+                    <img src={crn3} />
                   
                 </div>
 
                 <div>
-                    <img src={asdf} />
+                    <img src={crn1} />
                   
                 </div>
             </Carousel>
