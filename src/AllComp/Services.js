@@ -187,7 +187,7 @@ ensuring top-notch results in every project.
         <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
         We are committed to providing our
         customers with 24/7 seamless
-        support and service
+        support and service.
                 </p>
       </div>
     </div>
@@ -208,7 +208,7 @@ ensuring top-notch results in every project.
         We foster an ideal work
 environment that promotes
 growth, collaboration, and
-innovation
+innovation.
         </p>
       </div>
     </div>
