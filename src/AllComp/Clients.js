@@ -9,7 +9,7 @@ const Clients = () => {
   return (
     <section id="Clients">
     <div className=" ">
-      <div className="container text-center " style={{paddingTop:"121px"}}>
+      <div className="container text-center " >
         <div className="text-center mb-5">
           <h1 className="display-4 fw-bold" style={{color:"#005da7"}}>What Our Coustomers Say</h1>
           <p className="lead text-muted">
@@ -60,7 +60,7 @@ const Clients = () => {
                 <div className="d-flex align-items-center mb-4">
                   <img
                    src={icon}
-                    alt="engr Waseem"
+                    alt="Engr Waseem"
                     className="rounded-circle me-3"
                     style={{ width: "64px", height: "64px" }}
                   />

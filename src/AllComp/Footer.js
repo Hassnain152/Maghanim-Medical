@@ -11,8 +11,8 @@ const Footer = () => {
     }, []);
    
   return (
-    <footer className="bg-dark text-white py-4">
-      <div className="container">
+    <footer className="bg-dark text-white py-4 mt-4">
+      <div className="container" >
         <h3 className="text-center mb-4">Follow Us On</h3>
         <div className="row justify-content-center">
           {/* Facebook */}

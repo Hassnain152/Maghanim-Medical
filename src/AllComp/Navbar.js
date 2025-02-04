@@ -35,7 +35,7 @@ function Navbar() {
               style={{
                 width: "130px",
                 height: "auto",
-                maxHeight: "105px",
+                maxHeight: "115px",
               }}
             />
           </a>
@@ -68,10 +68,10 @@ function Navbar() {
                 <a
                   className="nav-link"
                   aria-current="page"
-                  href="#top"
+                  href="#updates"
                   style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
-                  HOME
+                 OUR UPDATES
                 </a>
               </li>
               <li className="items">
@@ -86,10 +86,11 @@ function Navbar() {
               <li className="items">
                 <a
                   className="nav-link"
-                  href="#Clients"
+                  href="#form"
                   style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
-                  TESTIMONIAL
+                  {/* TESTIMONIAL */}
+                  JOIN US
                 </a>
               </li>
               <li className="items">
@@ -101,15 +102,16 @@ function Navbar() {
                   SERVICES
                 </a>
               </li>
-              <li className="items">
+              {/* <li className="items">
                 <a
                   className="nav-link"
                   href="#Projects"
+                 
                   style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
                   OUR BRANCHES
                 </a>
-              </li>
+              </li> */}
               <li className="items">
                 <a
                   className="nav-link"

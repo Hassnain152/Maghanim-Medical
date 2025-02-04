@@ -1,13 +1,20 @@
+import  homee from "../Assets/HP.jpg"
+import cafe from "../Assets/cafe.png"
+import dosecl from "../Assets/dosecl.png"
+import glass from "../Assets/glass.png"
+import magani from "../Assets/maganii.png"
+import sadliya from "../Assets/sadliyaa.png"
+import taj from "../Assets/taj.png"
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
- import crn1 from "../Assets/crnN1.png"
- import crn2 from "../Assets/crnN2.png"
- import crn3 from "../Assets/crnN3.png"
- import crn4 from "../Assets/crnN4.png"
+
+import React, { useEffect,  } from "react";
+
  import "./Home.css"
  import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect, useState } from "react";
+
 
 
 
@@ -16,33 +23,98 @@ import { } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 
 function Home() {
-    useEffect(() => {
-        Aos.init({ duration: 5000 });
-      }, []);
+    const openProjectsInNewTab = () => {
+        // Open a new tab with the '/projects-only' route
+        const url = `${window.location.origin}/projects-only`;
+        window.open(url, "_blank"); // Opens in a new tab
+      };
+   
   return (
     <>
+    <Carousel showThumbs={false}  showIndicators={false} showStatus={false}>
+        <div>
+          <img  src= {homee}/>
+        </div>
+    </Carousel>
+    <div class="container">
     <div className="homii">
 
-    <Carousel  >
-                <div>
-                    <img src= {crn4}/>
-                    
-                </div>
-                <div>
-                    <img src={crn2} />
-                   
-                </div>
-                <div>
-                    <img src={crn3} />
-                  
-                </div>
+    
+    
+      <div class="row">
+        <div class="col-md-12">
+<h2 className="hd2">Our Commitment to Excellence</h2>
+        </div>
+      </div>
+        <div class="row">
+        <div class="col-md-12" >
+        <h2>We proudly lead a renowned group of businesses, each driven by a passion for excellence and committed to 
+            offering superior, high-quality services that exceed expectations and create lasting value</h2>
+        
+      </div>
+        </div>
+    
+    <div class="row" >
+        <div class="col-md-4">
+        <img  style={{width:"304px",height:"219px"}} src= {cafe}/>
 
-                <div>
-                    <img src={crn1} />
-                  
-                </div>
-            </Carousel>
+        </div>
+
+        <div class="col-md-4">
+        <img style={{width:"304px",height:"219px"}} src= {dosecl}/>
             
+        </div>
+
+        <div class="col-md-4">
+        <img style={{width:"304px",height:"219px"}} src= {glass}/>
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+        <img style={{width:"304px",height:"219px"}} src= {magani}/>
+
+        </div>
+
+        <div class="col-md-4">
+        <img style={{width:"304px",height:"219px"}} src= {sadliya}/>
+            
+        </div>
+
+        <div class="col-md-4">
+        <img style={{width:"304px",height:"219px"}} src= {taj}/>
+            
+        </div>
+    </div>
+    
+            
+    </div>
+         <div class="buttons" onClick={openProjectsInNewTab}>
+                                <button class="blob-btn">
+                                                    More about Branch
+                                                    <span class="blob-btn__inner">
+                                                        <span class="blob-btn__blobs">
+                                                            <span class="blob-btn__blob"></span>
+                                                            <span class="blob-btn__blob"></span>
+                                                            <span class="blob-btn__blob"></span>
+                                                            <span class="blob-btn__blob"></span>
+                                                        </span>
+                                                    </span>
+                                </button>
+        <br/>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    
     </div>
     
     </>
@@ -55,41 +127,8 @@ export default Home;
 
 
 
-// import React from 'react'
-// import carsl from "../Assets/mnb.jpg"
-// import cars2 from "../Assets/mnb2.jpg"
 
-// function Home() {
-//   return (
-//     <div>
-//       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-//   <ol class="carousel-indicators">
-//     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-//     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-//     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-//   </ol>
-//   <div class="carousel-inner">
-//     <div class="carousel-item active">
-//       <img class="d-block w-100" src={carsl} alt="First slide"/>
-//     </div>
-//     <div class="carousel-item">
-//       <img class="d-block w-100" src={cars2} alt="Second slide"/>
-//     </div>
-//     <div class="carousel-item">
-//       <img class="d-block w-100" src={carsl} alt="Third slide"/>
-//     </div>
-//   </div>
-//   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-//     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-//     <span class="sr-only">Previous</span>
-//   </a>
-//   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-//     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-//     <span class="sr-only">Next</span>
-//   </a>
-// </div>
-//     </div>
-//   )
-// }
 
-// export default Home
+
+
+

@@ -1,10 +1,12 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSnapchat, faTiktok,faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {  faLinkedin, } from "@fortawesome/free-brands-svg-icons";
+import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faMapLocation } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from "react";
-import telee from "../Assets/knt.jpg"
+import last from "../Assets/lasttt.webp"
+import  whtsapp1 from "../Assets/whtsapp1.png"
 import "./Contactus.css"
 
 
@@ -16,28 +18,59 @@ function Contactus() {
   return (<section id="Contactus">
         <div class ="container"  className="cont">
 
+
+       
+
+
+
         <div class="row mt-5">
           <div class="col-md-12">
             <h1  style={{color:"#005da7"}}>CONTACT US</h1> 
           </div>
+
         </div>
-        <div class="row " >
-          <div class="col-md-6 text-center mt-3">
-          <img  className="resp" style={{width:"250px", height:"250px"}}  src={telee}/>
-          </div>
+        <div className="call">
+        <a className="iconn" href="https://wa.me/+966566257866
 
-          <div class="col-md-6 mt-5 text-center">
-            <div class="row">
-              <div class="col-md-12"> <h2>فارس  بن سرور القثامى العتيبى</h2></div>
-              <div class="col-md-12"> <h3>رئيس مجلس الادارة </h3></div>
-              <div class="col-md-12"> <h4>0555556790</h4></div>
-            </div>
+ ">
+          <img class="text-center" style={{ width: 50 }} src={whtsapp1}  />
+        </a>
+        <p style={{ fontWeight: "bold", color: "black" }}></p>
+      </div>
 
-            
-          </div>
-        </div>
+        <div class="row text-justify" style={{color:"#005da7"}}>
+        <div className="col-md-6"> 
+  <h4>Address</h4>
+                    <p>
+                    <a 
+                    href="https://maps.app.goo.gl/rrdu4rsFrBpurd3k8?g_st=com.google.maps.preview.copy" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                    AL-HAWIYAH, TAIF, SAUDI ARABIA
+                  </a>
+                    </p>
 
-        <div class ="row text-center ">
+  <h4>Email</h4>
+  <p>
+    <a 
+      href="mailto:maghanimmarketing@gmail.com" 
+      style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+    >
+      maghanimmarketing@gmail.com
+    </a>
+  </p>
+  <a href="https://www.linkedin.com/in/maghanim-medical-5a2172349/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+</a>
+<p>MAGHANIM CO</p>
+</div>
+<div class="col-md-6  text-center">
+  <img style={{ borderRadius: '20px', width:"250px" ,height:"250px" }}src={last} class="img-fluid" />
+</div>
+
+</div>
+     <div class ="row text-center ">
       <h1  style={{color:"#005da7"}} data-aos="zoom-in-right">LOCATE US
         <a  style={{color:"#005da7"}}> <FontAwesomeIcon className="custom-icon" icon={faMapLocation}  bounce/></a>
       </h1>

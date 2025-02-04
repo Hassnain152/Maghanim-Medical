@@ -1,5 +1,6 @@
 
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './AllComp/Navbar';
 import Home from './AllComp/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,15 +14,28 @@ import Footer from './AllComp/Footer';
 import Form from "./AllComp/Form"
 
 
+
 function App() {
+
+
+  
   return (
     <div className="App">
     <>
+    <Router>
+      <Routes>
+        {/* Main Home Page */}
+        <Route path="/" element={<Home />} />
+
+        {/* This route will show only the Projects page */}
+        <Route path="/projects-only" element={<Projects />} />
+      </Routes>
+    </Router>
+
     <Navbar/>
-    <Home/>
     <Clients/>
     <Services/>
-    <Projects/>
+    
     <Aboutus/>
     <Contactus/>
     <Form/>

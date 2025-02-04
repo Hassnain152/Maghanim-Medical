@@ -7,6 +7,10 @@
     box-shadow: 0 4px 8px 0 rgb(0, 93, 167), 0 16px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 

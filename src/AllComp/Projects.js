@@ -24,7 +24,7 @@ function Projects() {
 
 
         
-<div  class="row " >
+<div id='projts'  class="row " >
 
 <div class="col-md-4 mt-5" >
     <div  class="card" style={{ }}>
@@ -95,8 +95,7 @@ function Projects() {
   </div>
 </div>
     </div>
-    {/* border: '3px solid #000000', borderRadius: '15px' img border
-    border: '3px solid #000000', borderRadius: '15px' card border */}
+    
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  }}>

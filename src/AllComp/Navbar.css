@@ -20,10 +20,10 @@
   
   .items:hover {
     text-decoration: underline;
-    color: #005da7;  /* Text color change on hover */
+    /* color: #005da7;                      
     font-weight: bold;
-    text-decoration-color: #005da7;  /* Ensure no quotes around color values */
-    box-shadow: #005da7 0px 25px 20px -20px;
+    text-decoration-color: #005da7;             
+    box-shadow: #005da7 0px 25px 20px -20px; */
 }
   
   
