@@ -193,7 +193,7 @@ ensuring top-notch results in every project.
     </div>
     </div>
 
-    <div class="col-md-4 mt-5">
+    <div class="col-md-4">
     <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <img
         className="card-img-top"
