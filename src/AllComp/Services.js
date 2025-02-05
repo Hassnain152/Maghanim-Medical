@@ -122,7 +122,7 @@ function Services() {
                     <h1 style={{ color: "#005da7" }}>OUR UPDATES</h1>
 
                     <div className="row justify-content-center">
-                        <div className="col-md-4">
+                        {/* <div className="col-md-4">
                             <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                                 <img className="card-img-top" src={team} alt="Card image cap" style={{ width: '100%', height: 'auto', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }} />
                                 <div className="card-body" style={{ padding: '15px' }}>
@@ -132,9 +132,25 @@ function Services() {
                                     </p>
                                 </div>
                             </div>
+                        </div> */}
+
+                         <div className="col-md-4 mt-3 ">
+                            <div className="card">
+                                <img className="card-img-top" src={team} alt="Card image cap" />
+                                <div className="card-body">
+                                    <h2 className="card-text">Our Skilled Professional Team</h2>
+                                    <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
+                                    Our team is skilled in utilizing advanced AI tools, ensuring top-notch results in projects.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="col-md-4">
+
+
+
+
+                        {/* <div className="col-md-4">
                             <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                                 <img className="card-img-top" src={fourhg} alt="Card image cap" style={{ width: '100%', height: 'auto', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }} />
                                 <div className="card-body" style={{ padding: '15px' }}>
@@ -144,8 +160,25 @@ function Services() {
                                     </p>
                                 </div>
                             </div>
+                        </div> */}
+
+                         <div className="col-md-4 mt-3 ">
+                            <div className="card">
+                                <img className="card-img-top" src={fourhg} alt="Card image cap" />
+                                <div className="card-body">
+                                    <h2 className="card-text">24/7 Reliable Support & Service</h2>
+                                    <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
+                                        We are committed to providing our customers with 24/7 seamless support and service.
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
 
+
+
+
+{/* 
                         <div className="col-md-4">
                             <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
                                 <img className="card-img-top" src={aii} alt="Card image cap" style={{ width: '100%', height: 'auto', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }} />
@@ -156,7 +189,24 @@ function Services() {
                                     </p>
                                 </div>
                             </div>
+                        </div> */}
+
+                             
+                         <div className="col-md-4 mt-3 ">
+                            <div className="card">
+                                <img className="card-img-top" src={aii} alt="Card image cap" />
+                                <div className="card-body">
+                                    <h2 className="card-text">24/7 Reliable Support & Service</h2>
+                                    <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
+                                        We are committed to providing our customers with 24/7 seamless support and service.
+                                    </p>
+
+                                </div>
+                            </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </section>
