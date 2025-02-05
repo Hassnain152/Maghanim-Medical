@@ -54,36 +54,36 @@ function Home() {
       </div>
         </div>
     
-    <div class="row" >
+    <div class="row text-center" >
         <div class="col-md-4">
-        <img  style={{width:"304px",height:"219px"}} src= {cafe}/>
+        <img  style={{width:"294px",height:"284px"}} src= {cafe}/>
 
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"219px"}} src= {dosecl}/>
+        <img style={{width:"264px",height:"264px"}} src= {dosecl}/>
             
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"219px"}} src= {glass}/>
+        <img style={{width:"274px",height:"324px"}} src= {glass}/>
             
         </div>
     </div>
 
-    <div class="row">
+    <div class="row text-center">
         <div class="col-md-4">
-        <img style={{width:"304px",height:"219px"}} src= {magani}/>
+        <img style={{width:"304px",height:"304px"}} src= {magani}/>
 
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"219px"}} src= {sadliya}/>
+        <img style={{width:"304px",height:"304px"}} src= {sadliya}/>
             
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"219px"}} src= {taj}/>
+        <img style={{width:"304px",height:"304px"}} src= {taj}/>
             
         </div>
     </div>
