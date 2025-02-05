@@ -144,13 +144,13 @@ function Services() {
     </section>
 
     <section id="updates">
-      <div class="container mt-5 " style={{paddingTop:"130px"}}>
+      <div class="container " style={{paddingTop:"130px"}}>
         <h1 style={{color:"#005da7"}}> OUR UPDATES</h1>
 
 
         <div  class="row " >
     
-    <div class="col-md-4 mt-5" > 
+    <div class="col-md-4" > 
 
     <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <img
@@ -173,7 +173,7 @@ ensuring top-notch results in every project.
     </div>
     
 
-    <div class="col-md-4 mt-5">
+    <div class="col-md-4">
     <div className="card" style={{ width: '18rem', margin: '20px', borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
       <img
         className="card-img-top"
