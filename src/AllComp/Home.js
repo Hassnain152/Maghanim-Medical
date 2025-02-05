@@ -92,7 +92,7 @@ function Home() {
     </div>
          <div class="buttons" onClick={openProjectsInNewTab}>
                                 <button class="blob-btn">
-                                                    More about Branch
+                                                    More about Branches
                                                     <span class="blob-btn__inner">
                                                         <span class="blob-btn__blobs">
                                                             <span class="blob-btn__blob"></span>
