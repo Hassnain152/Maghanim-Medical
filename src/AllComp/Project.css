@@ -144,3 +144,9 @@ html {
     }
   }
   
+  
+@media (max-width: 768px) {
+  .brnch {
+    margin-top: 120px; /* Increase margin for smaller screens if necessary */
+  }
+}
