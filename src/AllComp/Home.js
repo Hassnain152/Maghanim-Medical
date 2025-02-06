@@ -3,7 +3,7 @@ import cafe from "../Assets/cafe.png"
 import dosecl from "../Assets/dosecl.png"
 import glass from "../Assets/glass.png"
 import magani from "../Assets/maganii.png"
-import sadliya from "../Assets/sadliyaa.png"
+import sadliya from "../Assets/sadliya.png"
 import taj from "../Assets/taj.png"
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
