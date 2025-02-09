@@ -24,21 +24,22 @@ function Contactus() {
 
 
         <div class="row mt-5">
-          <div class="col-md-12">
+          <div class="col-md-12 text-center" >
             <h1  style={{color:"#005da7"}}>CONTACT US</h1> 
+           
           </div>
 
-        </div>
-        <div className="call">
-        <a className="iconn" href="https://wa.me/+966566257866
-
- ">
-          <img class="text-center" style={{ width: 50 }} src={whtsapp1}  />
+          <div className="call" class="text-center">
+        <a className="iconn" href="https://wa.me/+966566257866">
+          <img class="" style={{ width: 50 }} src={whtsapp1}  />
         </a>
         <p style={{ fontWeight: "bold", color: "black" }}></p>
       </div>
 
-        <div class="row text-justify" style={{color:"#005da7"}}>
+        </div>
+        
+
+        <div class="row text-center" style={{color:"#005da7"}}>
         <div className="col-md-6"> 
   <h4>Address</h4>
                     <p>
@@ -65,7 +66,7 @@ function Contactus() {
 </a>
 <p>MAGHANIM CO</p>
 </div>
-<div class="col-md-6  text-center">
+<div class="col-md-6 ">
   <img style={{ borderRadius: '20px', width:"250px" ,height:"250px" }}src={last} class="img-fluid" />
 </div>
 

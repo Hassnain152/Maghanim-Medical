@@ -19,20 +19,7 @@ const Clients = () => {
         <div className="row g-4">
           {/* Testimonial 1 */}
           {/* <div class="shapdow" className="col-12 col-md-6 col-lg-4">
-            <div >
-              <div className="card-body">
-                <div className="d-flex align-items-center mb-4">
-                  <img
-                    src={icon}
-                    alt="John Doe"
-                    className="rounded-circle me-3"
-                    style={{ width: "64px", height: "64px" }}
-                  />
-                  <div>
-                    <h5 className="fw-bold mb-0">M.Arif</h5>
-                    <small className="text-muted">CEO, GhalaIbrahim</small>
-                  </div>
-                </div>
+          
                 <blockquote className="blockquote">
                   <p className="mb-3">
                     <i className="text-muted me-2 fa fa-quote-left"></i>

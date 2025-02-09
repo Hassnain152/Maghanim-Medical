@@ -42,8 +42,8 @@ function Home() {
     
     
       <div class="row">
-        <div class="col-md-12">
-<h2 className="hd2">Our Commitment to Excellence</h2>
+        <div class="col-md-12 text-center">
+<h2 className="hd2">Our Commitment To Excellence</h2>
         </div>
       </div>
         <div class="row">
