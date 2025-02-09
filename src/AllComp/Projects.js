@@ -20,7 +20,7 @@ function Projects() {
   return (
     <section id='Projects'>
         <div class ="container text-center" style={{paddingTop:"120px"}} className='brnch'>
-        <h1  style={{color:"#005da7"}}>Our Branches</h1>
+        <h2  style={{color:"#005da7"}}>Our Branches</h2>
 
 
         
