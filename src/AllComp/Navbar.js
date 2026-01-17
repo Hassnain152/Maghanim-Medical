@@ -71,7 +71,7 @@ function Navbar() {
                   href="#updates"
                   style={{ fontSize: 20, color: "#000000", padding: "30px" }}
                 >
-                 OUR UPDATES
+                 OUR UPDATE
                 </a>
               </li>
               <li className="items">
