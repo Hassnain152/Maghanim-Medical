@@ -48,7 +48,7 @@ function Home() {
       </div>
         <div class="row">
         <div class="col-md-12" >
-        <h2>We proudly led a renowned group of businesses, each driven by a passion for excellence and committed to 
+        <h2>We Proudly led a renowned group of businesses, each driven by a passion for excellence and committed to 
             offering superior, high-quality services that exceed expectations and create lasting value</h2>
         
       </div>
