@@ -9,10 +9,10 @@ import taj from "../Assets/taj.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 
-import React, { useEffect,  } from "react";
+import React  from "react";
 
  import "./Home.css"
- import Aos from "aos";
+
 import "aos/dist/aos.css";
 
 
@@ -33,7 +33,7 @@ function Home() {
     <>
     <Carousel showThumbs={false}  showIndicators={false} showStatus={false}>
         <div>
-          <img  src= {homee}/>
+          <img  src= {homee} alt="homeP"/>
         </div>
     </Carousel>
     <div class="container">
@@ -56,34 +56,34 @@ function Home() {
     
     <div class="row text-center" >
         <div class="col-md-4">
-        <img  style={{width:"294px",height:"284px"}} src= {cafe}/>
+        <img  style={{width:"294px",height:"284px"}} src= {cafe}  alt="cafe"/>
 
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"264px",height:"264px"}} src= {dosecl}/>
+        <img style={{width:"264px",height:"264px"}} src= {dosecl} alt="dose"/>
             
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"274px",height:"324px"}} src= {glass}/>
+        <img style={{width:"274px",height:"324px"}} src= {glass} alt="glasss"/>
             
         </div>
     </div>
 
     <div class="row text-center">
         <div class="col-md-4">
-        <img style={{width:"304px",height:"304px"}} src= {magani}/>
+        <img style={{width:"304px",height:"304px"}} src= {magani} alt="maganiii"/>
 
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"304px"}} src= {sadliya}/>
+        <img style={{width:"304px",height:"304px"}} src= {sadliya} alt="store"/>
             
         </div>
 
         <div class="col-md-4">
-        <img style={{width:"304px",height:"304px"}} src= {taj}/>
+        <img style={{width:"304px",height:"304px"}} src= {taj} alt="tajii"/>
             
         </div>
     </div>

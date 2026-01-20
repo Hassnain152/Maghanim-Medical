@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faSnapchat, faTiktok,faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
+import {  faTiktok,faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

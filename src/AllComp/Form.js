@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Swal from "sweetalert2";
+
 import "./Form.css"
 import tlnt from "../Assets/tlnt.jpg"
 
@@ -30,7 +29,7 @@ export default function Form() {
       that shares our passion for excellence and contributes to our vision.
     </p>
 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScmAu2ITc9WUHMZ4Ppv6CP0IXYCmTu-6ee43_iYnZ6BpecC3w/viewform?usp=dialog" target="_blank">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScmAu2ITc9WUHMZ4Ppv6CP0IXYCmTu-6ee43_iYnZ6BpecC3w/viewform?usp=dialog" target="_blank" rel="npopener noreferrer">
     <div class="buttons">
         <button class="blob-btn">
             Drop Your Resume Here

@@ -1,7 +1,6 @@
 
 import icon from "../Assets/icon.png"
 import "./clnt.css"
-import React, { useEffect, useState } from "react";
 //  this is testimonial page
 
 const Clients = () => {
