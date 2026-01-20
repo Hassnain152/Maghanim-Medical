@@ -12,7 +12,7 @@ import compp from "../Assets/copm1.png"
 // this page is our branches 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 function Projects() {
   useEffect(() => {
       Aos.init({ duration: 5000 });
@@ -28,7 +28,7 @@ function Projects() {
 
 <div class="col-md-4 mt-5" >
     <div  class="card" style={{ }}>
-  <img style={{ }} class="card-img-top" src={majma} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={majma} alt="Card041 image cap"/>
   <div class="card-body">
   <a href="https://altajclinic.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
   <h2 className="card-text">AL Taj poly <br /> Clinic</h2>
@@ -44,7 +44,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{ }} class="card-img-top" src={clinic} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={clinic} alt="Card2 image cap"/>
   <div class="card-body">
       
   <a href="https://doseclinic.net/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
@@ -62,7 +62,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{  }} class="card-img-top" src={alsor} alst="Card image cap"/>
+  <img style={{  }} class="card-img-top" src={alsor} alt="Card3 image cap"/>
   <div class="card-body">
 
   <a href="https://alsorourpharmacy.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
@@ -81,7 +81,7 @@ function Projects() {
 <div class="row text-center" >
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{  }} class="card-img-top" src={comp2} alst="Card image cap"/>
+  <img style={{  }} class="card-img-top" src={comp2} alst="Card4 image cap"/>
   <div class="card-body">
     {/* <h2 class="card-text">Maghanim Marketing</h2> */}
 
@@ -99,7 +99,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{  }}>
-  <img style={{ }} class="card-img-top" src={cafe} alst="Card image cap"/>
+  <img style={{ }} class="card-img-top" src={cafe} alst="Card7 image cap"/>
   <div class="card-body">
   <a href=" https://maps.app.goo.gl/D6EmBSTHXuprowsdA?g_st=com.google.maps.preview.copy " target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
   <h2 className="card-text">Daily Dose Cafe</h2>
@@ -112,7 +112,7 @@ function Projects() {
 
     <div class="col-md-4 mt-5">
     <div  class="card" style={{ }}>
-  <img style={{  }} class="card-img-top" src={compp} alst="Card image cap"/>
+  <img style={{  }} class="card-img-top" src={compp} alst="Card8 image cap"/>
   {/* style={{width:"20px", height:"20px"}} */}
   <div class="card-body">
   <a href="https://www.maghanimco.com/" target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
