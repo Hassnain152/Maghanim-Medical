@@ -8,7 +8,7 @@ import lsr from "../Assets/lsr.jpg";
 import radio from  "../Assets/radio.jpg"; 
 import lab from  "../Assets/lab.jpg";
 import emr from  "../Assets/emer.jpg";
-import pedd from "../Assets/ped.jpg";
+import pedd from  "../Assets/ped.jpg";
 import eye from "../Assets/eye.jpg";
 import bone from "../Assets/bone.jpg";
 import aii from "../Assets/aii.jpg";
@@ -31,7 +31,7 @@ function Services() {
                     <div className="row justify-content-center">
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={eye} alt="Ophthalmology service" />
+                                <img className="card-img-top" src={eye} alt="Ophthalmology" />
                                 <div className="card-body">
                                     <h2 className="card-text">Ophthalmology</h2>
                                 </div>
@@ -40,7 +40,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={bone} alt="Orthopedics service" />
+                                <img className="card-img-top" src={bone} alt="Orthopedics" />
                                 <div className="card-body">
                                     <h2 className="card-text">Orthopedics</h2>
                                 </div>
@@ -49,7 +49,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={dental} alt="Dental Implant service" />
+                                <img className="card-img-top" src={dental} alt="Dental Implant" />
                                 <div className="card-body">
                                     <h2 className="card-text">Dental Implant</h2>
                                 </div>
@@ -60,7 +60,7 @@ function Services() {
                     <div className="row justify-content-center">
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={drm} alt="Dermatology service" />
+                                <img className="card-img-top" src={drm} alt="Dermatology" />
                                 <div className="card-body">
                                     <h2 className="card-text">Dermatology</h2>
                                 </div>
@@ -69,7 +69,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={radio} alt="Radiology service" />
+                                <img className="card-img-top" src={radio} alt="Radiology" />
                                 <div className="card-body">
                                     <h2 className="card-text">Radiology</h2>
                                 </div>
@@ -78,7 +78,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={lsr} alt="Laser Treatment service" />
+                                <img className="card-img-top" src={lsr} alt="Laser Treatment" />
                                 <div className="card-body">
                                     <h2 className="card-text">Laser Treatment</h2>
                                 </div>
@@ -89,7 +89,7 @@ function Services() {
                     <div className="row justify-content-center">
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={lab} alt="Laboratory service" />
+                                <img className="card-img-top" src={lab} alt="Laboratory" />
                                 <div className="card-body">
                                     <h2 className="card-text">Laboratory</h2>
                                 </div>
@@ -98,7 +98,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={emr} alt="Emergency service" />
+                                <img className="card-img-top" src={emr} alt="Emergency" />
                                 <div className="card-body">
                                     <h2 className="card-text">Emergency</h2>
                                 </div>
@@ -107,7 +107,7 @@ function Services() {
 
                         <div className="col-md-4 mt-5">
                             <div className="card">
-                                <img className="card-img-top" src={pedd} alt="Pediatric service" />
+                                <img className="card-img-top" src={pedd} alt="Pediatric" />
                                 <div className="card-body">
                                     <h2 className="card-text">Pediatric</h2>
                                 </div>
@@ -124,7 +124,7 @@ function Services() {
                     <div className="row justify-content-center">
                         <div className="col-md-4 mt-3">
                             <div className="card">
-                                <img className="card-img-top" src={team} alt="Professional team" />
+                                <img className="card-img-top" src={team} alt="Professional Team" />
                                 <div className="card-body">
                                     <h2 className="card-text">Our Skilled Professional Team</h2>
                                     <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
@@ -136,7 +136,7 @@ function Services() {
 
                         <div className="col-md-4 mt-3">
                             <div className="card">
-                                <img className="card-img-top" src={fourhg} alt="24/7 support service" />
+                                <img className="card-img-top" src={fourhg} alt="Support and Service" />
                                 <div className="card-body">
                                     <h2 className="card-text">24/7 Reliable Support & Service</h2>
                                     <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
@@ -148,7 +148,7 @@ function Services() {
 
                         <div className="col-md-4 mt-3">
                             <div className="card">
-                                <img className="card-img-top" src={aii} alt="Work environment service" />
+                                <img className="card-img-top" src={aii} alt="Work Environment" />
                                 <div className="card-body">
                                     <h2 className="card-text">24/7 Reliable Support & Service</h2>
                                     <p className="card-text" style={{ fontSize: '1rem', color: '#666' }}>
