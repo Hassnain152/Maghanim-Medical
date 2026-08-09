@@ -1,86 +1,178 @@
+
+import React, { useEffect } from "react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faLinkedin, } from "@fortawesome/free-brands-svg-icons";
-import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
-import { faMapLocation } from '@fortawesome/free-solid-svg-icons'
-import React, { useEffect, useState } from "react";
-import last from "../Assets/lasttt.webp"
-import  whtsapp1 from "../Assets/whtsapp1.png"
-import "./Contactus.css"
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import last from "../Assets/lasttt.webp";
+import whtsapp1 from "../Assets/whtsapp1.png";
+
+import "./Contactus.css";
 
 function Contactus() {
   useEffect(() => {
-      Aos.init({ duration: 5000 });
-    }, []);
-  return (<section id="Contactus">
-        <div class ="container"  className="cont">
+    Aos.init({
+      duration: 900,
+      once: true,
+      offset: 80,
+    });
+  }, []);
 
+  return (
+    <section className="contact-section" id="Contactus">
+      <div className="contact-container">
 
-       
+        {/* =========================================
+            HEADING
+        ========================================= */}
 
+        <div
+          className="contact-heading"
+          data-aos="fade-up"
+        >
+          <span>GET IN TOUCH</span>
 
+          <h1>
+            Contact <strong>Us</strong>
+          </h1>
 
-        <div class="row mt-5">
-          <div class="col-md-12">
-            <h1  style={{color:"#005da7"}}>CONTACT US</h1> 
+          <p>
+            Have a question or want to work with us?
+            We would love to hear from you.
+          </p>
+        </div>
+
+        {/* =========================================
+            CONTACT CONTENT
+        ========================================= */}
+
+        <div className="contact-grid">
+
+          {/* LEFT SIDE */}
+          <div
+            className="contact-info"
+            data-aos="fade-right"
+          >
+            <div className="contact-image-wrapper">
+              <img
+                src={last}
+                alt="Contact us"
+                className="contact-main-image"
+                loading="lazy"
+              />
+
+              <div className="contact-image-overlay">
+                <span>We Are Here For You</span>
+              </div>
+            </div>
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div
+            className="contact-details"
+            data-aos="fade-left"
+          >
+
+            <h2>
+              Let's Start a <span>Conversation</span>
+            </h2>
+
+            <p className="contact-description">
+              Whether you have a question, need more information,
+              or would like to discuss our services, feel free
+              to reach out to us.
+            </p>
+
+            {/* WhatsApp */}
+            <a
+              className="contact-item whatsapp-contact"
+              href="https://wa.me/966566257866"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="contact-icon whatsapp-icon">
+                <img
+                  src={whtsapp1}
+                  alt="WhatsApp"
+                />
+              </div>
+
+              <div>
+                <small>WHATSAPP</small>
+                <h3>+966 56 625 7866</h3>
+              </div>
+            </a>
+
+            {/* Phone */}
+            <a
+              className="contact-item"
+              href="tel:+966566257866"
+            >
+              <div className="contact-icon">
+                <FontAwesomeIcon icon={faPhoneAlt} />
+              </div>
+
+              <div>
+                <small>CALL US</small>
+                <h3>+966 56 625 7866</h3>
+              </div>
+            </a>
+
+            {/* Email */}
+            <a
+              className="contact-item"
+              href="mailto:info@example.com"
+            >
+              <div className="contact-icon">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+
+              <div>
+                <small>EMAIL</small>
+                <h3>info@example.com</h3>
+              </div>
+            </a>
+
+            {/* Location */}
+            <div className="contact-item">
+              <div className="contact-icon">
+                <FontAwesomeIcon icon={faMapMarkerAlt} />
+              </div>
+
+              <div>
+                <small>LOCATION</small>
+                <h3>Saudi Arabia</h3>
+              </div>
+            </div>
+
+            {/* LinkedIn */}
+            <a
+              className="linkedin-button"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+
+              <span>Connect With Us on LinkedIn</span>
+            </a>
+
           </div>
 
         </div>
-        <div className="call">
-        <a className="iconn" href="https://wa.me/+966566257866
 
- ">
-          <img class="text-center" style={{ width: 50 }} src={whtsapp1}  />
-        </a>
-        <p style={{ fontWeight: "bold", color: "black" }}></p>
       </div>
-
-        <div class="row text-justify" style={{color:"#005da7"}}>
-        <div className="col-md-6"> 
-  <h4>Address</h4>
-                    <p>
-                    <a 
-                    href="https://maps.app.goo.gl/rrdu4rsFrBpurd3k8?g_st=com.google.maps.preview.copy" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    AL-HAWIYAH, TAIF, SAUDI ARABIA
-                  </a>
-                    </p>
-
-  <h4>Email</h4>
-  <p>
-    <a 
-      href="mailto:maghanimmarketing@gmail.com" 
-      style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
-    >
-      maghanimmarketing@gmail.com
-    </a>
-  </p>
-  <a href="https://www.linkedin.com/in/maghanim-medical-5a2172349/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-  <FontAwesomeIcon icon={faLinkedin} size="2x" />
-</a>
-<p>MAGHANIM CO</p>
-</div>
-<div class="col-md-6  text-center">
-  <img style={{ borderRadius: '20px', width:"250px" ,height:"250px" }}src={last} class="img-fluid" />
-</div>
-
-</div>
-     <div class ="row text-center ">
-      <h1  style={{color:"#005da7"}} data-aos="zoom-in-right">LOCATE US
-        <a  style={{color:"#005da7"}}> <FontAwesomeIcon className="custom-icon" icon={faMapLocation}  bounce/></a>
-      </h1>
-        </div>
-      <iframe class="mt-4"style={{ width:"100%" ,height:"450" , allowfullscreen:"1" ,loading:"lazy", referrerpolicy:"no-referrer-when-downgrade"}}  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.7552694658966!2d40.47360949999999!3d21.4388623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15ea2f7d34d78f7d%3A0xa6d814be696ba44a!2z2YXYrNmF2Lkg2KfZhNiq2KfYrCDYp9mE2LfYqNmK!5e0!3m2!1sen!2ssa!4v1738000804549!5m2!1sen!2ssa" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </div>
     </section>
-    
-  )
+  );
 }
 
-export default Contactus
+export default Contactus;

@@ -1,26 +1,555 @@
-.custom-icon {
-    color:"#005da7"
-  }
-.biodata
-  {
-  color:"#005da7"
-}
-.cont {
-  padding-top: 100px;
-}
-/* .call{
-  align-items: end;
-  justify-content: end;
-  text-align: right;
-  float: right;
-  text-align: left;
-  align-items: end;
-  justify-content: end;
-  text-align: left;
-  position:fixed;
+
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact-section {
+  width: 100%;
+
+  padding: 110px 20px 120px;
+
+  background: #ffffff;
+
   overflow: hidden;
-  top: 400px;
-  left: 1150px;
- 
-  
-} */
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1250px;
+
+  margin: 0 auto;
+}
+
+/* =========================================
+   HEADING
+========================================= */
+
+.contact-heading {
+  max-width: 700px;
+
+  margin: 0 auto 60px;
+
+  text-align: center;
+}
+
+.contact-heading > span {
+  display: inline-block;
+
+  margin-bottom: 12px;
+
+  color: #005da7;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.contact-heading h1 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: clamp(40px, 5vw, 58px);
+
+  font-weight: 800;
+
+  line-height: 1.1;
+
+  letter-spacing: -1.5px;
+}
+
+.contact-heading h1 strong {
+  color: #005da7;
+}
+
+.contact-heading p {
+  max-width: 580px;
+
+  margin: 18px auto 0;
+
+  color: #6b7280;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.contact-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.contact-info {
+  width: 100%;
+}
+
+.contact-image-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  min-height: 520px;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+
+  background: #f2f6f9;
+
+  box-shadow:
+    0 20px 55px rgba(0, 0, 0, 0.1);
+}
+
+.contact-main-image {
+  width: 100%;
+  height: 100%;
+
+  min-height: 520px;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.6s ease;
+}
+
+.contact-image-wrapper:hover .contact-main-image {
+  transform: scale(1.04);
+}
+
+.contact-image-overlay {
+  position: absolute;
+
+  left: 25px;
+  bottom: 25px;
+
+  padding: 13px 20px;
+
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  border-radius: 50px;
+
+  background: rgba(0, 0, 0, 0.45);
+
+  color: #ffffff;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  backdrop-filter: blur(10px);
+}
+
+/* =========================================
+   DETAILS
+========================================= */
+
+.contact-details {
+  width: 100%;
+}
+
+.contact-details > h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: clamp(30px, 4vw, 44px);
+
+  font-weight: 800;
+
+  line-height: 1.15;
+}
+
+.contact-details > h2 span {
+  color: #005da7;
+}
+
+.contact-description {
+  max-width: 560px;
+
+  margin: 18px 0 30px;
+
+  color: #6b7280;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+}
+
+/* =========================================
+   CONTACT ITEM
+========================================= */
+
+.contact-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 17px;
+
+  width: 100%;
+
+  padding: 16px;
+
+  margin-bottom: 12px;
+
+  border: 1px solid #e9eef2;
+
+  border-radius: 15px;
+
+  background: #ffffff;
+
+  color: inherit;
+
+  text-decoration: none;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(5px);
+
+  border-color: rgba(0, 93, 167, 0.2);
+
+  background: #f8fbfd;
+
+  box-shadow:
+    0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================================
+   ICON
+========================================= */
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #eaf4fb;
+
+  color: #005da7;
+
+  font-size: 19px;
+}
+
+.contact-icon img {
+  width: 28px;
+  height: 28px;
+
+  object-fit: contain;
+}
+
+.whatsapp-contact:hover .contact-icon {
+  background: #eaf4fb;
+}
+
+/* =========================================
+   CONTACT TEXT
+========================================= */
+
+.contact-item small {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #8a96a3;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+.contact-item h3 {
+  margin: 0;
+
+  color: #17202a;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+}
+
+/* =========================================
+   LINKEDIN BUTTON
+========================================= */
+
+.linkedin-button {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 12px;
+
+  padding: 13px 20px;
+
+  border: 1px solid #005da7;
+
+  border-radius: 50px;
+
+  background: #005da7;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+}
+
+.linkedin-button:hover {
+  transform: translateY(-3px);
+
+  background: #004d89;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 10px 25px rgba(0, 93, 167, 0.22);
+}
+
+.linkedin-button svg {
+  font-size: 17px;
+}
+
+/* =========================================
+   LAPTOP
+========================================= */
+
+@media (max-width: 1100px) {
+  .contact-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .contact-grid {
+    gap: 40px;
+  }
+
+  .contact-image-wrapper,
+  .contact-main-image {
+    min-height: 450px;
+  }
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 800px) {
+  .contact-section {
+    padding: 90px 20px;
+  }
+
+  .contact-heading {
+    margin-bottom: 45px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .contact-image-wrapper,
+  .contact-main-image {
+    min-height: 420px;
+  }
+
+  .contact-details {
+    max-width: 650px;
+
+    margin: 0 auto;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 550px) {
+  .contact-section {
+    padding: 75px 15px;
+  }
+
+  .contact-heading {
+    margin-bottom: 35px;
+  }
+
+  .contact-heading > span {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+  }
+
+  .contact-heading h1 {
+    font-size: 36px;
+
+    letter-spacing: -1px;
+  }
+
+  .contact-heading p {
+    margin-top: 14px;
+
+    font-size: 14px;
+  }
+
+  .contact-grid {
+    gap: 35px;
+  }
+
+  .contact-image-wrapper {
+    min-height: 330px;
+
+    border-radius: 20px;
+  }
+
+  .contact-main-image {
+    min-height: 330px;
+  }
+
+  .contact-image-overlay {
+    left: 15px;
+    bottom: 15px;
+
+    padding: 10px 15px;
+
+    font-size: 11px;
+  }
+
+  .contact-details > h2 {
+    font-size: 30px;
+  }
+
+  .contact-description {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  .contact-item {
+    gap: 13px;
+
+    padding: 13px;
+
+    border-radius: 13px;
+  }
+
+  .contact-icon {
+    width: 43px;
+    height: 43px;
+
+    border-radius: 10px;
+
+    font-size: 17px;
+  }
+
+  .contact-icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact-item h3 {
+    font-size: 14px;
+  }
+
+  .contact-item small {
+    font-size: 9px;
+  }
+
+  .linkedin-button {
+    width: 100%;
+
+    justify-content: center;
+
+    margin-top: 8px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+  .contact-section {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .contact-heading h1 {
+    font-size: 32px;
+  }
+
+  .contact-image-wrapper,
+  .contact-main-image {
+    min-height: 280px;
+  }
+
+  .contact-details > h2 {
+    font-size: 27px;
+  }
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+.contact-item:focus-visible,
+.linkedin-button:focus-visible {
+  outline: 2px solid #005da7;
+
+  outline-offset: 3px;
+}
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-item,
+  .contact-main-image,
+  .linkedin-button {
+    transition: none;
+  }
+}
+
