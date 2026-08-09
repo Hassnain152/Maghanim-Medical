@@ -12,7 +12,11 @@ import Projects from './AllComp/Projects';
 import Contactus from './AllComp/Contactus';
 import Footer from './AllComp/Footer';
 import Form from "./AllComp/Form"
+<<<<<<< HEAD
 
+=======
+//project
+>>>>>>> ff7dc5162fc447bfb6e9b1593c89ad43c114b02b
 
 
 

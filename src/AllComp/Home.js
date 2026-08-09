@@ -15,7 +15,7 @@ function Home() {
   };
 
   return (
-    <main className="home-hero">
+    <main className="home-section" id="home">
 
       {/* Background Image */}
       <img
@@ -29,7 +29,6 @@ function Home() {
 
       {/* Hero Content */}
       <div className="home-hero-content">
-
         <div className="home-hero-text">
 
           <span className="home-hero-label">
@@ -43,12 +42,13 @@ function Home() {
           </h1>
 
           <p>
-            We proudly lead a renowned group of businesses, each driven
-            by a passion for excellence and committed to offering
-            superior, high-quality services that exceed expectations
-            and create lasting value.
+            We proudly lead a renowned group of businesses, each
+            driven by a passion for excellence and committed to
+            offering superior, high-quality services that exceed
+            expectations and create lasting value.
           </p>
 
+          {/* Buttons */}
           <div className="home-hero-buttons">
 
             <button
@@ -68,9 +68,7 @@ function Home() {
             </a>
 
           </div>
-
         </div>
-
       </div>
 
       {/* Scroll Indicator */}

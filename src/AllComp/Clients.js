@@ -1,7 +1,13 @@
 
+<<<<<<< HEAD
 import React from "react";
 import icon from "../Assets/icon.png";
 import "./clnt.css";
+=======
+import icon from "../Assets/icon.png"
+import "./clnt.css"
+//  this is testimonial page
+>>>>>>> ff7dc5162fc447bfb6e9b1593c89ad43c114b02b
 
 const Clients = () => {
   return (
@@ -21,6 +27,32 @@ const Clients = () => {
             the work we deliver.
           </p>
         </div>
+<<<<<<< HEAD
+=======
+        <div className="row g-4">
+          {/* Testimonial 1 */}
+          {/* <div class="shapdow" className="col-12 col-md-6 col-lg-4">
+          
+                <blockquote className="blockquote">
+                  <p className="mb-3">
+                    <i className="text-muted me-2 fa fa-quote-left"></i>
+                    Getting Services from here  has been a fantastic experience!
+                    Their attention to detail and dedication to delivering
+                    results is unmatched.
+                    <i className="text-muted ms-2 fa fa-quote-right"></i>
+                  </p>
+                </blockquote>
+                <div className="d-flex text-warning">
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div> */}
+>>>>>>> ff7dc5162fc447bfb6e9b1593c89ad43c114b02b
 
         {/* Testimonial */}
         <div className="testimonial-wrapper">

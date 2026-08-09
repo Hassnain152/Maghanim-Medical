@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faPhoneAlt,
   faEnvelope,
@@ -31,10 +32,7 @@ function Contactus() {
     <section className="contact-section" id="Contactus">
       <div className="contact-container">
 
-        {/* =========================================
-            HEADING
-        ========================================= */}
-
+        {/* HEADING */}
         <div
           className="contact-heading"
           data-aos="fade-up"
@@ -51,10 +49,7 @@ function Contactus() {
           </p>
         </div>
 
-        {/* =========================================
-            CONTACT CONTENT
-        ========================================= */}
-
+        {/* CONTACT CONTENT */}
         <div className="contact-grid">
 
           {/* LEFT SIDE */}
@@ -92,7 +87,7 @@ function Contactus() {
               to reach out to us.
             </p>
 
-            {/* WhatsApp */}
+            {/* WHATSAPP */}
             <a
               className="contact-item whatsapp-contact"
               href="https://wa.me/966566257866"
@@ -112,7 +107,7 @@ function Contactus() {
               </div>
             </a>
 
-            {/* Phone */}
+            {/* PHONE */}
             <a
               className="contact-item"
               href="tel:+966566257866"
@@ -127,7 +122,7 @@ function Contactus() {
               </div>
             </a>
 
-            {/* Email */}
+            {/* EMAIL */}
             <a
               className="contact-item"
               href="mailto:info@example.com"
@@ -142,7 +137,7 @@ function Contactus() {
               </div>
             </a>
 
-            {/* Location */}
+            {/* LOCATION */}
             <div className="contact-item">
               <div className="contact-icon">
                 <FontAwesomeIcon icon={faMapMarkerAlt} />
@@ -154,7 +149,7 @@ function Contactus() {
               </div>
             </div>
 
-            {/* LinkedIn */}
+            {/* LINKEDIN */}
             <a
               className="linkedin-button"
               href="#"
@@ -163,11 +158,12 @@ function Contactus() {
             >
               <FontAwesomeIcon icon={faLinkedin} />
 
-              <span>Connect With Us on LinkedIn</span>
+              <span>
+                Connect With Us on LinkedIn
+              </span>
             </a>
 
           </div>
-
         </div>
 
       </div>
@@ -176,3 +172,4 @@ function Contactus() {
 }
 
 export default Contactus;
+
